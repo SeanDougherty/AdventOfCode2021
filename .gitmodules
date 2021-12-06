@@ -1,0 +1,3 @@
+[submodule "AdventOfCodeUtils"]
+	path = AdventOfCodeUtils
+	url = https://github.com/seandough3rty/AdventOfCodeUtils.git
