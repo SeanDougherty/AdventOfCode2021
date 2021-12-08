@@ -43,3 +43,7 @@ This was a fun one. Used direct simulation for part 1. Part 2 completely tore th
 ### Day 7
 
 This one was brute-forced. I never like settling for the brute-force solution but the optimal solution for this one relied on a bit of math knowledge that I wasn't familiar with. Glad to know that it wasn't me just missing an algorithmic approach or forgetting data structure. Also, I wasn't sure what the equation was for the "Sum" version of a factorial. A quick wiki search told me it was the Triangular Sum formula. I knew an equation had to exist, I just hadn't done much math work in some time. In any case, it was an alright challenge and I got to test my automated AoC util service! A few bugs on it's first run, but I'm expecting much better results when I test it again tonight for Day 8!
+
+### Day 8
+
+This was a challenging one, both logically and with the use of proper data structures. I eventually found a rather elegant approach to part2 that I am happy with. However, one critique would be that there is no handling of malformed input and I could do better to implement better exception throwing/handling. Alltogether still an enjoyable challenge. And as a bonus, my utility worked well!
