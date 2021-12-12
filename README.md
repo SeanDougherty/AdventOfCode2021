@@ -47,3 +47,15 @@ This one was brute-forced. I never like settling for the brute-force solution bu
 ### Day 8
 
 This was a challenging one, both logically and with the use of proper data structures. I eventually found a rather elegant approach to part2 that I am happy with. However, one critique would be that there is no handling of malformed input and I could do better to implement better exception throwing/handling. Alltogether still an enjoyable challenge. And as a bonus, my utility worked well!
+
+### Day 9
+
+Nothing to report, solved very quickly with a WFS (whatever-first-search).
+
+### Day 10
+
+A little awkward writing out the mappings, otherwise this was a pretty simple stack solution.
+
+### Day 11
+
+Really wanted to solve in O(mn) but had to settle for O(2\*mn). Part 2 was a pretty quick solve thanks to my approach on tracking flashes per step.
