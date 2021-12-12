@@ -59,3 +59,7 @@ A little awkward writing out the mappings, otherwise this was a pretty simple st
 ### Day 11
 
 Really wanted to solve in O(mn) but had to settle for O(2\*mn). Part 2 was a pretty quick solve thanks to my approach on tracking flashes per step.
+
+### Day 12
+
+This was a fun alteration to traditional graph traversal. My solution was pretty verbose, and I think I could've done better to encapsulate certain aspects of the code and to avoid encapsulating other aspects. Checking for presence in the set was clunky and my choices for "cantAdd" or "!isLarge" was pretty atrocious, "canAdd" and "isSmall" would've been much better methods. Also, a "isInPath()" method would have been very nice.
