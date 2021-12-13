@@ -63,3 +63,7 @@ Really wanted to solve in O(mn) but had to settle for O(2\*mn). Part 2 was a pre
 ### Day 12
 
 This was a fun alteration to traditional graph traversal. My solution was pretty verbose, and I think I could've done better to encapsulate certain aspects of the code and to avoid encapsulating other aspects. Checking for presence in the set was clunky and my choices for "cantAdd" or "!isLarge" was pretty atrocious, "canAdd" and "isSmall" would've been much better methods. Also, a "isInPath()" method would have been very nice.
+
+### Day 13
+
+My mental approach was near solid, it was just a matter of doing better to check edge cases. I lucked out and passed part 1 even with a bug in my code. The bug was a missing '% line' at the end of the updated x or y coord. This was a really fun challenge. I liked the index manipulation that is involved in 'folding' matrices.
