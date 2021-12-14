@@ -67,3 +67,7 @@ This was a fun alteration to traditional graph traversal. My solution was pretty
 ### Day 13
 
 My mental approach was near solid, it was just a matter of doing better to check edge cases. I lucked out and passed part 1 even with a bug in my code. The bug was a missing '% line' at the end of the updated x or y coord. This was a really fun challenge. I liked the index manipulation that is involved in 'folding' matrices.
+
+### Day 14
+
+This was a pretty straightforward sol'n. I had considered the non-brute force solution during part 1, but I really just wanted to get part1 submitted so I created the quick and dirty approach for the first half of today's challenge. Ended up paying for this in the end, a few minutes of attempted refactor turned into almost an entire rewrite. And the rewrite was not pretty. But I solved in just over 1hr, not great but I'll take it this late in AoC! Spent a bit of time this morning cleaning up part2 for better readability.
