@@ -71,3 +71,14 @@ My mental approach was near solid, it was just a matter of doing better to check
 ### Day 14
 
 This was a pretty straightforward sol'n. I had considered the non-brute force solution during part 1, but I really just wanted to get part1 submitted so I created the quick and dirty approach for the first half of today's challenge. Ended up paying for this in the end, a few minutes of attempted refactor turned into almost an entire rewrite. And the rewrite was not pretty. But I solved in just over 1hr, not great but I'll take it this late in AoC! Spent a bit of time this morning cleaning up part2 for better readability.
+
+### Day 15
+
+I don't think I will ever forget the optimization of dijkstra going forward. The solution was obvious within seconds of reading the problem. I had dijkstra written up from what I could remember within 30 minutes. It solved part 1 and I thought to myself "Ahh I did it! I recalled dijkstra from like 3 years ago in Algo class". Hours later I'm staring at my screen trying to find any little optimization or any silly time waste I'm doing in the code. Part 2 expanded the graph 25x over and now my beautiful dijkstra method can't even return a value. In a moment of weakness I looked at a colleagues solution that had already solved it. The difference? A little optimization that is taught to everyone right after the simple dijkstra approach is taught. (Simple dijkstra is O(V^2)). If you store 'open' vertices in a priority queue instead of looping over the entire graph each time to find the 'next smallest unvisited node' your runtime speeds up from O(V^2) to O(V + ElogV). I begrudgingly make the change and watch as my code completes in less than a second. I look at the clock, it's nearly 3AM and my only thought is: "Had I remembered the priority queue speed up, I could've been in bed 3 hours ago".
+
+Let's just hope a night like that doesn't happen again.
+Altogether a good challenge and a good lesson.
+
+### Day 16
+
+A lot of people are saying they really liked this challenge. To me it was just alright. Seemed like a pretty straight-forward translation of requirements. No fun mental challenge. No real trick to solving it. It was pretty easy, just time consuming. There weren't many places to get performance boosts either from what I could find. Oh well. Part 1 and Part 2 are both contained within `part1.cpp`
