@@ -82,3 +82,7 @@ Altogether a good challenge and a good lesson.
 ### Day 16
 
 A lot of people are saying they really liked this challenge. To me it was just alright. Seemed like a pretty straight-forward translation of requirements. No fun mental challenge. No real trick to solving it. It was pretty easy, just time consuming. There weren't many places to get performance boosts either from what I could find. Oh well. Part 1 and Part 2 are both contained within `part1.cpp`
+
+### Day 17
+
+Definitely overthought this one. I think the late night attempts are starting to get to me. No more staying up until midnight for this guy. Hopefully tomorrow I think more clearly.
