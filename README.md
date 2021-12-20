@@ -86,3 +86,19 @@ A lot of people are saying they really liked this challenge. To me it was just a
 ### Day 17
 
 Definitely overthought this one. I think the late night attempts are starting to get to me. No more staying up until midnight for this guy. Hopefully tomorrow I think more clearly.
+
+### Day 18
+
+This one was really fun to solve. I am a fan of tree data structures, and decoding the tree representation of the string input was pretty fun. Additionally, coming up with the traversals for both explode and split were enjoyable. I've seen some solutions that do some sort of "flattening". Not too sure how that functions, but I'd be interested to learn the approach.
+
+### Day 19
+
+My god, that tested me. Within a couple minutes I had identified that you could find pairings of scanners by comparing the distance between siblings for each beacon in a scanner. If BeaconA is from scanner1 and BeaconB is from scanner2, and BeaconA has the same 11 distances from its siblings as BeaconB has from its siblings. Then they must be the same beacon, and their matching distances must be to the remaining shared 11 beacons.
+
+After that I tried to implement rotation using wikipedia's (Rotation Matrix)[https://en.m.wikipedia.org/wiki/Rotation_matrix#In_three_dimensions]. As I knew you would have to line up the shared points by rotating them. However, I was confused because you could rotate each of the 3 axis' into 4 different states (0, 90, 180, 270), which would be 4^3 different orientations (...or so I thought). It wasn't clear to me how there could be only 24 orientations until I got this whole rotation matrix stuff out of my head.
+
+By the time I had done that, and found my own rotation lookup table, my code had been put into a rather big mess. This wasn't suitable so I ended up rewriting the entire codebase from scratch.
+
+This time, I took my time and was deliberate with the commenting, architecting, and programming. It resulted in much fewer errors and a much smoother development process. I need to take this understanding with me forward onto future problems.
+
+Had I taken it slower in my design and approach, I might've solved this problem before 24hours. Although, the rotations did do a real number on me. So maybe I wouldn't have anyway.
