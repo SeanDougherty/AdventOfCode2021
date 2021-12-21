@@ -102,3 +102,8 @@ By the time I had done that, and found my own rotation lookup table, my code had
 This time, I took my time and was deliberate with the commenting, architecting, and programming. It resulted in much fewer errors and a much smoother development process. I need to take this understanding with me forward onto future problems.
 
 Had I taken it slower in my design and approach, I might've solved this problem before 24hours. Although, the rotations did do a real number on me. So maybe I wouldn't have anyway.
+
+### Day 20
+
+Pretty tricky today, having to find a solution for the flashing border was time consuming. Won't pretend this code is written well. If I hadn't also done Day 19 today,
+I would likely have spent more energy on writing Day 20 a bit more cleanly.
