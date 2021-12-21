@@ -107,3 +107,7 @@ Had I taken it slower in my design and approach, I might've solved this problem 
 
 Pretty tricky today, having to find a solution for the flashing border was time consuming. Won't pretend this code is written well. If I hadn't also done Day 19 today,
 I would likely have spent more energy on writing Day 20 a bit more cleanly.
+
+### Day 21
+
+This feels like a slight reprieve. However, I can tell that the difficulty overall has ramped up. Day 19 still feels the most challenging, but that's not to say Day 20 and 21 were a cake walk. As for today, I had a hard time coming up with an approach for part 2. Finally, after a hint, I learned it was a 2D DP problem. It took me about 15-20min to settle on the final structure for the DP table and then the implementation was actually really enjoyable to produce.
