@@ -111,3 +111,15 @@ I would likely have spent more energy on writing Day 20 a bit more cleanly.
 ### Day 21
 
 This feels like a slight reprieve. However, I can tell that the difficulty overall has ramped up. Day 19 still feels the most challenging, but that's not to say Day 20 and 21 were a cake walk. As for today, I had a hard time coming up with an approach for part 2. Finally, after a hint, I learned it was a 2D DP problem. It took me about 15-20min to settle on the final structure for the DP table and then the implementation was actually really enjoyable to produce.
+
+### Day 22
+
+I love the end result for this one, it was a fun challenge overall to think about.
+I even designed it with Part 2 in mind, knowing that tracking 3d space directly would've
+been a fools errand. When I finally had a program working for the Part 1 example I was ready to fire off the code for my given input and join the "Sub-1minute part2" club.
+I speedily entered the total cubes lit (including the initialization area) and was
+befuddled when it came back as incorrect. A quick test later and I realized my folly.
+Integer overflow ruins me once again. Part 2 was submitted just under 4 minutes later.
+Oh well, maybe next time.
+
+P.S. I know 'decompose()' could be simplified down to eliminate code duplication. But it's more trouble than it's worth at this point.
