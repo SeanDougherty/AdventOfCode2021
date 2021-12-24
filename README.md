@@ -123,3 +123,8 @@ Integer overflow ruins me once again. Part 2 was submitted just under 4 minutes 
 Oh well, maybe next time.
 
 P.S. I know 'decompose()' could be simplified down to eliminate code duplication. But it's more trouble than it's worth at this point.
+
+### Day 23
+
+Hahahaha well, my late night hand-solved approach placed me in the top 250 quickest solvers for today. Part 1 took 35min to handsolve and part 2 took an additional 53min.
+'Insert something about don't over-engineer your approach'. Anyways, after a good nights sleep I implemented a rather simple solve. It's not the quickest approach as I've heard others using dijkstra or some form of A*. That would have been a fun challenge to come up with a heuristic for which next move is best, however my schedule is getting busier as Xmas approaches, so no A* solves this year.
