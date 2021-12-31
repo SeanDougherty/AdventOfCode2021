@@ -133,6 +133,8 @@ Hahahaha well, my late night hand-solved approach placed me in the top 250 quick
 
 This one stumped me. For me personally, a brute force solution was the only rational approach I could figure. After looking for hints, I found out that trying to decode the input would have clarified a lot. However, the solution necessary to solve this problem is so tightly coupled with the input, that it seems a waste of time to try and write code for something that could be solved much quicker with a pen and paper. I've left my rough draft of the brute force approach here. It definitely prompted me to think better about pointers and method argument writing. So I'm thankful for that aspect of the challenge. Aside from that, I'm not too enthused with this challenge.
 
+That being said, I do think I could've done better even with my approach. One thing I really enjoy about AoC is the ability to see the approach from programmers much more skilled than myself. Many of my positions in my career thus far I've not had the benefit of a senior developer to learn from, so opportunities like these where I learn from seasoned veterans is a real treat for me. Neal Wu's solution here: https://www.youtube.com/watch?v=uNSO3y4WdVQ&t=7s shows a really bright approach to narrowing the field for a brute force algorithm, thus speeding up the RTA runtime even though the approach is still somewhat theoretically brute-force. 
+
 ### Day 25
 
 Thankfully, an easy one! A great way to cap off the AoC. Got tripped up by accidentally overwriting some of my input halfway through each step, but eventually found that bug. A very nice reprieve from the last few days. Excited for next year! 
