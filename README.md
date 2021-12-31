@@ -128,3 +128,13 @@ P.S. I know 'decompose()' could be simplified down to eliminate code duplication
 
 Hahahaha well, my late night hand-solved approach placed me in the top 250 quickest solvers for today. Part 1 took 35min to handsolve and part 2 took an additional 53min.
 'Insert something about don't over-engineer your approach'. Anyways, after a good nights sleep I implemented a rather simple solve. It's not the quickest approach as I've heard others using dijkstra or some form of A*. That would have been a fun challenge to come up with a heuristic for which next move is best, however my schedule is getting busier as Xmas approaches, so no A* solves this year.
+
+### Day 24
+
+This one stumped me. For me personally, a brute force solution was the only rational approach I could figure. After looking for hints, I found out that trying to decode the input would have clarified a lot. However, the solution necessary to solve this problem is so tightly coupled with the input, that it seems a waste of time to try and write code for something that could be solved much quicker with a pen and paper. I've left my rough draft of the brute force approach here. It definitely prompted me to think better about pointers and method argument writing. So I'm thankful for that aspect of the challenge. Aside from that, I'm not too enthused with this challenge.
+
+### Day 25
+
+Thankfully, an easy one! A great way to cap off the AoC. Got tripped up by accidentally overwriting some of my input halfway through each step, but eventually found that bug. A very nice reprieve from the last few days. Excited for next year! 
+
+It took me a bit longer to post these final days. I caught omicron the day after christmas and have been indisposed the past few days. No matter, I really enjoyed this challenge and I think in the future I will take the opportunity to try and rewrite these solutions in other languages to either A) brush up on syntax I've forgotten or B) learn a new language. 
